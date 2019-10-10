@@ -25,6 +25,8 @@ def es_archivo_valido(nombre):
 	n = len(nombre)
 	if nombre[n-1] == 'p' and nombre[n-2] == 'p' and nombre[n-3] == 'c' and nombre[n-4] == '.':
 		return True
+	elif nombre[n-1] == 'y' and nombre[n-2] == 'p' and nombre[n-3] == '.':
+		return True
 	else:
 		return False
 
@@ -37,13 +39,15 @@ def machear_tag(tg):
 				if tg in buscar_tag(path+"/"+fnombre):
 					directorios.append(path + "/" + fnombre)
 	return directorios
-	
+
+cf_tags = {"implementation","dp","math","greedy","data structures","dfs and similar","graphs","brute force","constructive algorithms","trees","strings"}
 
 while 1:
+	print(cf_tags)
 	s = input("Buscar tag: ")
 	ans = machear_tag(s)
 	if ans:
 		for e in ans:
-			print(e)
+			print("\t" + e)
 	else:
 		print("no se encontro ningun archivo con ese tag")
