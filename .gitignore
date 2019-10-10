@@ -1,0 +1,9 @@
+# Archivos compilados, etc
+*
+!*.*
+!*/
+*.o
+*.exe
+*.py:tests
+*.cpp:tests
+*.out
