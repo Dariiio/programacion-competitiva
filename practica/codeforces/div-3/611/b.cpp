@@ -28,8 +28,11 @@ int main(){
 	ll t,n,k;
 	cin>>t;
 	while(t--){
+		int ans = 0;
 		cin>>n>>k;
-		cout<<k*(n/k)+k/2<<"\n";
+		ans = n - n%k;
+		ans += min(n%k,k/2);
+		cout<<ans<<"\n";
 	}
 
 	return 0;

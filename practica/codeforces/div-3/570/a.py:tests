@@ -1,0 +1,37 @@
+[
+	{
+		"correct_answers":
+		[
+			"435"
+		],
+		"test": "432\n"
+	},
+	{
+		"correct_answers":
+		[
+			"103"
+		],
+		"test": "99\n"
+	},
+	{
+		"correct_answers":
+		[
+			"237"
+		],
+		"test": "237\n"
+	},
+	{
+		"correct_answers":
+		[
+			"44"
+		],
+		"test": "42\n"
+	},
+	{
+		"correct_answers":
+		[
+			"7777"
+		],
+		"test": "7777\n"
+	}
+]

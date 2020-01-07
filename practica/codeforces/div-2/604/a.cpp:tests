@@ -1,0 +1,18 @@
+[
+	{
+		"correct_answers":
+		[
+			"ababcb\n-1\nacbac"
+		],
+		"test": "3\na???cb\na??bbc\na?b?c\n"
+	},
+	{
+		"test": "3\naa\na?\n?\n"
+	},
+	{
+		"test": "3\n???\nabb\n?a?\n"
+	},
+	{
+		"test": ""
+	}
+]

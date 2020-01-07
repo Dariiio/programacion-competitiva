@@ -4,6 +4,6 @@
 !*/
 *.o
 *.exe
-*.py:tests
-*.cpp:tests
+#*.py:tests
+#*.cpp:tests
 *.out
